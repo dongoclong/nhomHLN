@@ -1,3 +1,5 @@
+# OOP-2021
+Môn học Lập trình hướng đối tượng với Java
 # Nhóm HLN
  ## Báo cáo tìm hiểu về mẫu thiết kế
  ## Thành viên: Họ và tên - MSSV
@@ -6,7 +8,7 @@
  ## 3. Nguyễn Phúc Nguyên - 20021406
 
 ### **Cách thức thực hiện bài báo cáo**: Mỗi thành viên làm phần bài báo cáo của mình rồi commit vào reposition của nhóm ([Link reposition của nhóm](https://github.com/dongoclong/nhomHLN)), bạn Đỗ Ngọc Long tổng hợp và sắp xếp phần báo cáo của các thành viên vào file báo cáo của nhóm.
- 
+
  - **[Link đến reposition được sử dụng trong bài báo cáo] (https://github.com/sshahine/JFoenix/tree/master/demo)**
 ## Abstract Factory:
 -	Cung cấp một interface cho việc tạo lập các đối tượng (có liên hệ với nhau) mà không cần quy định lớp khi hay xác định lớp cụ thể (concrete) tạo mỗi đối tượng.
@@ -58,11 +60,8 @@ public class JapaneseAdaptee {
 ```
 	public interface Weapon {
   		void wield();
-
   		void swing();
-
   		void unwield();
-
   		Enchantment getEnchantment();
 	}
 	public class Sword implements Weapon {
@@ -109,9 +108,7 @@ public class Account {
 -	Example: https://github.com/design-pattern-list/observer-pattern .
 ```
 package refactoring_guru.observer.example.listeners;
-
 import java.io.File;
-
 public interface EventListener {
 	void update(String eventType, File file);
 }
@@ -129,10 +126,3 @@ public interface EventListener {
 => Tách tiến trình xây dựng 1 đối tượng phức tạp sao cho một tiến trình tạo được các biểu diễn khác nhau => Builder Design Pattern
 
 ## Kết luận: Trong dự án trên do nội dung là về design pattern nên mẫu thiết kế được sử dụng khá tương đồng với 23 mẫu thiết kế chuẩn.
-
-
-
-
-
-
-
